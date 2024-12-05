@@ -18,7 +18,7 @@ const Footer = () => {
             near you.
           </p>
           <p className="font-semibold text-gray text-xs">
-            Or call 000800-040-1966
+            Or call 9389916233
           </p>
         </div>
 
@@ -26,6 +26,18 @@ const Footer = () => {
 
         <div className="flex md:flex-row flex-col md:items-center justify-between">
           <p className="font-semibold text-gray text-xs">Copright @ 2024 Apple Inc. All rights reserved.</p>
+          <p className="font-semibold text-gray text-xs">
+  Made with 🖤 by{" "}
+  <a 
+    href="https://wa.me/9389916233?text=Hello" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="text-blue-500 underline"
+  >
+    Ankit Singh
+  </a>
+</p>
+
           <div className="flex">
             {footerLinks.map((link, i) => (
               <p key={link} className="font-semibold text-gray text-xs">
